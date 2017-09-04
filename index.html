@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--Free Labour Group-->
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+    	<title>Summons Allocation</title>
+        <meta name="NZ Police Summons Allocation" content="Summons Allocation">
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link href="css/dycalendar.min.css" rel="stylesheet" />
+    <!-- javascript -->
+    <script src="js/dycalendar.min.js"></script>
+    <!--<script src="js/default.js"></script>-->
+        
+	</head>
+
+	<body>
+
+		<div class="content">
+			<div class="header">
+			
+				<div class="section1"><img id="logo" src="images/logo.png" alt="NZ Police" width="18.5%"></div> 
+				<div class="section2"><span class="section2txt"><h1>Summons Allocation</h1></span></div>
+				
+			</div>
+			<div class="wrapper"> 
+				<div class="menu">
+					<h2>Welcome</h2><br>
+					<p>Staff Username</p>
+					<hr>
+					<ul>
+						<li><a href="../html/allocations.html"> Summons Allocations</a></li>
+						<li><a href="../html/changepass.html"> Change Password?</a></li>
+					</ul>
+						<hr>
+					<p>&nbsp;</p>
+					<p>Task:</p>
+					<ul>
+						<li><a href="../html/dates.html"> Set Court dates</a></li>
+						<li><a href="../html/users.html"> User Authorisation</a></li>
+						<li><a href="../html/settings.html"> Settings</a></li>
+					</ul>
+				</div>
+				<div class="main"> 
+					<div class="filter"> 
+						<p>Filter:</p>
+						<form> 
+							<label>Courts:</label> <br> 
+							<input type="radio" name="court" id="hamilton"><label>Hamilton</label><br>
+							<input type="radio" name="court" id="huntly"><label>Huntly</label><br>
+							<input type="radio" name="court" id="matamata"><label>Matamata Area</label><br>
+							<input type="radio" name="court" id="morrinsville"><label>Morrinsville</label><br>
+							<input type="radio" name="court" id="teAroha"><label>Te Aroha Office</label><br>
+							<input type="radio" name="court" id="teAwamutu"><label>Te Awamutu</label><br>
+							<input type="radio" name="court" id="thames"><label>Thames</label><br>
+							<input type="radio" name="court" id="tokoroa"><label>Tokoroa</label><br>
+							<label>Date:</label><br> 
+							<input class="indent" type="date" name="date"><br>
+							<label>Search by:</label><br> 
+							<label class="indent">Offender Name:</label><br><input class="indent" type="text" id="nameSearch"><br>
+							<label class="indent">QID:</label><br><input class="indent" type="text" id="qidSearch"><br>
+							<input type="submit" onclick="myFunction()" value="Apply">
+						</form> 
+					</div>
+                    
+				    <div class="calendar">
+                    <div id="month" class="dycalendar-month dycalendar-container skin-blue shadow-default"></div>
+                    </div>
+                </div>
+            <script>
+                dycalendar.draw({
+                 target: '#month',
+                 type: 'month',
+                 year: 2017,
+                 month: 8
+            });
+            </script>
+            </div>
+		</div>
+        
+	</body>
+
+</html>
+

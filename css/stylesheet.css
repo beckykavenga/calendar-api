@@ -1,0 +1,221 @@
+/*ID: 1245491, Name: Lepeka Kavenga*/
+
+/* resets page across all browsers - same starting point*/
+* {
+    margin:0;
+    padding:0;
+  }
+
+body {
+	background: #FFF;
+}
+
+img {
+	min-width: 240px;
+}
+
+html, body {
+	    height: 100%;
+	    margin: auto;
+	  }
+
+table {
+    width: 500px;
+    height: 300px;
+}
+
+.calendar{
+    margin-left: 200pt;
+}
+.calendar span {
+    font-size: 30pt;
+}
+/*holds all main content of webpage*/
+.content {
+	padding: 1% 2%;
+	background-color: #FFF;
+	overflow:hidden;
+	position: static; 
+	margin: 0% 2%;
+}
+
+.header {
+		background-color: #FFF;
+		border-style:solid;
+		border-color: #FFF;
+		border-bottom-color: #89A0C0;
+		padding:1%;
+		margin-bottom: 20px;
+		height: 80px;
+	}
+	
+.section1 {
+    float: left;
+}
+
+.section2 {
+	float:right;
+
+}
+
+.section2txt h1, h2 {
+			color: #89A0C0;
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-style: italic;
+			display: inline;					
+      }
+
+.menu, .main {
+	margin: 25px 25px 0px 0px;
+	padding:2%;
+	background-color: #EAF5FA;
+	height:50%;
+	float:left;
+}
+.menu {
+	min-width:220px;
+}
+
+.main {
+	position: relative;
+	width: 70%;
+	margin-right:none;
+}
+
+.filter{
+	float: left; 
+	border-right: 2px solid #89A0C0;
+	min-width: 16%;
+	padding: 1% 2%;
+	}
+
+#calendar {
+	 width: 60%;
+     margin: 20%;
+	 float: left;
+	}
+
+.addedEvent {
+    background-color:#004B8F;
+}
+
+label {		 
+		color: #2F3133;
+		margin:0% 2% 1% 0%;
+		font-family: 'Georgia', serif; 
+		font-style: normal;
+}
+
+.indent{
+	margin-left: 10px;
+}
+/*formats display message*/
+p, a, label {
+		color: #89A0C0;
+		font-style: italic;
+		font-size: 12pt;
+		text-decoration: none;
+}
+
+
+#search {
+	padding: 2px 5px;
+	background:#FFA500;
+	color: #FFF;
+	text-transform: uppercase; 
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12pt; 
+} 
+
+#links{
+	background:#FFE5B4;
+}
+
+form{
+	margin-left: 2%;
+}
+
+/*formats input and text buttons*/
+
+input[type=text], input[type=date]{
+			margin-bottom: 1%;
+			width:150px; height: 20px;
+			display:block;
+}
+
+input[type=radio]{
+	margin-left: 40px;
+}
+
+input[type=submit]{
+			padding: 2px 5px;
+			margin-top: 10%;
+			height: 30px;
+			color: #FFF;
+			background: #004B8F;
+  			border: none;
+			font-size: 12pt;
+			font-family: 'Lato', sans-serif; 
+			letter-spacing: 1px; 
+			text-transform: uppercase; 
+			display: block;
+			float: right;
+}
+
+
+/*to format heading tags*/
+h3 {	
+		display: inline-block; 
+		font-family: 'Lato', sans-serif; 
+		text-transform: uppercase;
+		font-size: 18pt;
+		background: #FE921F;
+		color: #FFF;
+		padding: 1%;
+		margin-bottom: 1%;
+}
+
+
+h3, h4 {
+		 color: #FFF; 
+		 background:#FE921F;
+		 display: inline-block; 
+		 font-family: 'Lato', sans-serif; 
+		 font-size: 12px; 
+		 font-weight: bold; 
+		 line-height: 12px; 
+		 letter-spacing: 1px; 
+		 margin: 5px 10px; 
+		 padding: 10px 15px 8px;
+		 text-transform: uppercase;
+}
+
+h4 {	
+		background:#44749D;
+		
+}
+
+p, a, legend {
+		font-family: 'Open Sans', sans-serif; 
+		letter-spacing: 1px;
+		font-size: 14pt;
+}
+
+a { 
+	font-size: 12pt;
+	padding-top: 20%;
+}
+
+a:hover{
+	color:red;
+}
+
+ul { 
+	list-style-type: none;
+}
+
+li {
+	padding:10px;
+}
+
+
