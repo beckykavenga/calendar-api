@@ -49,11 +49,24 @@ table {
 		height: 80px;
 	}
 	
-.section1 {
+.footer {
+		background-color: #FFF;
+		border-top: 2px solid #89A0C0;
+		margin-top: 10px;
+		height: 10px;
+		clear:both;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 100px;
+		width: 100%;
+	}
+	
+.section1, .footerLeft {
     float: left;
 }
 
-.section2 {
+.section2, .footerRight {
 	float:right;
 
 }
@@ -196,7 +209,7 @@ h4 {
 }
 
 p, a, legend {
-		font-family: 'Open Sans', sans-serif; 
+		font-family: 'Arial', sans-serif; 
 		letter-spacing: 1px;
 		font-size: 14pt;
 }
